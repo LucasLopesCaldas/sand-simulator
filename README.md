@@ -1,33 +1,21 @@
-# Game of Life
+# Sand Simulator
 
-## Sobre o Projeto
+## About the Project
 
-O Game of Life é uma simulação computacional criada pelo matemático britânico John Conway. Ele é um "autômato celular" que segue regras simples, mas pode gerar padrões complexos. Este projeto é um teste técnico que estou realizando como parte do processo de candidatura a uma vaga de estágio na Bobby Soluções.
+The Sand Simulator is a computational simulation based on cellular automata principles. It models the behavior of sand particles in a virtual environment using simple, yet effective, rules.
 
-## Características
+## Features
 
-- Simulação do Game of Life de Conway em um ambiente virtual.
-- Implementação das regras básicas do Game of Life:
-  - Qualquer célula viva com menos de dois vizinhos vivos morre de solidão.
-  - Qualquer célula viva com dois ou três vizinhos vivos sobrevive.
-  - Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação.
-  - Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva.
-- Interface simples e intuitiva em HTML e JavaScript Vanilla.
+- Simulation of sand particles in a virtual environment using cellular automata rules.
+- Implementation of basic sand behavior rules:
+  - Sand particles fall down if the space below is empty.
+  - Sand particles spread to the left or right if the spaces below are occupied but adjacent spaces are empty.
+- Simple and intuitive interface using HTML and Vanilla JavaScript.
 
-## Testes
+## Installation and Usage
 
-Os testes são realizados utilizando o framework Jasmine. Para executá-los:
+1. Clone this repository to your computer.
+2. Start a local server, for example, using Live Server.
+3. Access `/index.html` on the server.
 
-1. Clone este repositório para o seu computador.
-2. Inicialize um servidor local, por exemplo, utilizando o Live Server.
-3. Acesse `/SpecRunner.html` no servidor.
-
-Ou acesse uma [demo](https://lucaslopescaldas.github.io/teste-tecnico-intern/SpecRunner)
-
-## Instalação e Uso
-
-1. Clone este repositório para o seu computador.
-1. Inicialize um servidor local, por exemplo, utilizando o Live Server.
-2. Acesse `/index.html` no servidor.
-
-Ou acesse uma [demo](https://lucaslopescaldas.github.io/teste-tecnico-intern/)
+Or access a [demo](https://lucaslopescaldas.github.io/sand-simulator/).
